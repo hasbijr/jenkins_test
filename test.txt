@@ -1,0 +1,28 @@
+package test;
+
+/**
+ *
+ * @author acer
+ */
+public class Test {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        int angka = 2021;
+        int result = 0;
+        for (int i = 1; i < angka; i++) {
+             if (i % 3 == 0 || i % 7 ==0) {
+                result+=i;
+            }
+           
+        }
+        
+        System.out.println("\nHasil = "+result);
+    
+    }
+}
+
+//OUTPUT
+//Hasil = 873939
